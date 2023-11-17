@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>login page</title>
+    </head>
+    <style>
+        .container-login{
+            justify-content: center;
+            background-color: beige;
+            display: grid;
+            flex-wrap: wrap;
+            height: 100%;
+            text-align: center;
+        }
+        .box{
+margin-top: 30px;
+margin-left: 75px;
+padding: 0px ;
+width: 350px;
+height: 350px;
+text-align: center;
+border: 1px solid rgb(216, 211, 211);
+background-color:white;
+justify-content: center;
+}
+#int{
+    width: 250px;
+height: 30px;
+margin: 20px 30px 10px 30px;
+background-color:white;
+padding: 5px;
+border: 1px solid rgb(240, 227, 227);
+}
+        h1{
+            margin: 0;
+            text-align: center;
+        }
+        h3{
+            margin: 0;
+            text-align: center;
+        }
+        #button{
+            width: 200px;
+            height: 30px;
+            margin: 20px 30px 10px 30px;
+            background-color: rgb(127, 231, 127);
+            
+            border: 1px solid rgb(216, 211, 211);
+            border-radius: 5px;
+            color: white;
+            cursor: pointer;
+        }
+        #account{
+            width: 200px;
+            height: 30px;
+            margin: 20px 30px 10px 30px;
+            background-color: rgb(50, 146, 50);
+            
+            border: 1px solid rgb(216, 211, 211);
+            border-radius: 5px;
+            color: white;
+            cursor: pointer;
+        }
+        
+    </style>
+    <body>
+        <div class="container-login">
+        <h1 style="font-family: Arial, Helvetica, sans-serif; color: blue;">Facebook</h1>
+        <h3>Facebook helps you to connect and share with people in your life</h3>
+        <div class="box">
+        <input id="int" type="text" placeholder="Username,email,password" required>
+        <input id="int" type="password" placeholder="password" required>
+        <input id="button" type="submit" value="login"><br><br>
+        <span style="color: blue;cursor: pointer;">forgot password?</span>
+        <hr>
+        <form action="signup.html">
+        <input id="account" type="submit" value="Create an account"><br><br>
+    </form>
+    </div>
+        </div>
+    </body>
+</html>
